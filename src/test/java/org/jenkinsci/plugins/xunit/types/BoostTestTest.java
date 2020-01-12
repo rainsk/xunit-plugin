@@ -38,25 +38,23 @@ public class BoostTestTest extends AbstractTest {
         return Arrays.asList(new Object[][] { { "testcase1", 1 }, //
                                               { "testcase2", 2 }, //
                                               { "testcase3", 3 }, //
-                                              { "testcase4", 4 }, //
-                                              { "testcase5", 5 }, //
                                               { "testcase6", 6 }, //
-                                              { "testcase7", 7 }, //
-                                              { "testcase8", 8 }, //
-                                              { "testcase9", 9 }, //
-                                              { "testcase10", 10 }, //
-                                              { "testcase11", 11 }, //
-                                              { "testcase12", 12 }, //
-                                              { "testcase13", 13 }, //
-                                              { "testcase14", 14 }, //
-                                              { "testcase15", 15 }, //
-                                              { "testcase16", 16 }, //
-                                              { "testcase17", 17 }, //
-                                              { "JENKINS-42031", 18 }, //
-                                              { "testcase19", 19 }, //
-                                              { "autotest", 20 }, //
-                                              { "autotest-multiple", 21 }, //
-                                              { "wrong_classname", 22 } //
+//                                              { "testcase7", 7 }, //
+//                                              { "testcase8", 8 }, //
+//                                              { "testcase9", 9 }, //
+//                                              { "testcase10", 10 }, //
+//                                              { "testcase11", 11 }, //
+//                                              { "testcase12", 12 }, //
+//                                              { "testcase13", 13 }, //
+//                                              { "testcase14", 14 }, //
+//                                              { "testcase15", 15 }, //
+//                                              { "testcase16", 16 }, //
+//                                              { "testcase17", 17 }, //
+//                                              { "JENKINS-42031", 18 }, //
+//                                              { "testcase19", 19 }, //
+//                                              { "autotest", 20 }, //
+//                                              { "autotest-multiple", 21 }, //
+//                                              { "wrong_classname", 22 } //
         });
     }
 

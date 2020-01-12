@@ -185,7 +185,12 @@ THE SOFTWARE.
         </xsl:variable>
         <xsl:variable name="packageName" select="($suiteName)"/>
 
-        <xsl:variable name="asd" select="concat($curElt/ancestor::TestSuite/@name)" />
+        <xsl:variable name="suiteName">
+            <xsl:for-each select="($curElt/ancestor::TestSuite)">
+                <xsl:variable name="nameTrimed" select="replace(./@name,' ','.')"/>
+                <xsl:value-of select="$nameTrimed"/><xsl:text>.</xsl:text>
+            </xsl:for-each>
+        </xsl:variable>
 
 <xsl:element name="asd">
     <xsl:attribute name="p">

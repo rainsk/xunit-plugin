@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite tests="69" errors="2" failures="3" name="MergedTestSuite" skipped="0">
-    <testcase classname="Crete.Unit.Test.vfstest" name="VFSSnapshotTest" time="0.010">
+<testsuite tests="69" errors="2" failures="3" name="Crete Unit Test" skipped="0">
+    <testcase name="VFSSnapshotTest" time="0.010">
         <system-out><![CDATA[
 [Info] - check l_obj passed
  == [File] - vfstest.cpp
@@ -175,14 +175,14 @@
  == [Line] - 101
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.vfstest" name="VFSTest" time="0.000">
+    <testcase name="VFSTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check !l_vfs->parent() passed
  == [File] - vfstest.cpp
  == [Line] - 106
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.vfstest" name="ObjectTest" time="0.000">
+    <testcase name="ObjectTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check l_obj passed
  == [File] - vfstest.cpp
@@ -253,7 +253,7 @@
  == [Line] - 67
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.vfstest" name="VFSTestChecksum" time="0.000">
+    <testcase name="VFSTestChecksum" time="0.000">
         <system-out><![CDATA[
 [Info] - check "9fce82c34887c1953b40b3a2883e18850c4fa8a6" ==
                 formatted_checksum passed
@@ -262,7 +262,7 @@
  == [Line] - 243
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.vfstest" name="DirTest" time="0.030">
+    <testcase name="DirTest" time="0.030">
         <system-out><![CDATA[
 [Info] - check dir_obj passed
  == [File] - vfstest.cpp
@@ -506,7 +506,7 @@
  == [Line] - 215
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.utilitiestest" name="TempFileTestCreateAndRemove" time="0.000">
+    <testcase name="TempFileTestCreateAndRemove" time="0.000">
         <system-out><![CDATA[
 [Info] - check stat(tmp_path.c_str(), &tmp_stat) == 0 passed
  == [File] - utilitiestest.cpp
@@ -522,7 +522,7 @@
  == [Line] - 22
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.utilitiestest" name="TempFileTestCreateSpecialFile" time="0.000">
+    <testcase name="TempFileTestCreateSpecialFile" time="0.000">
         <system-out><![CDATA[
 [Info] - check stat(tmp.GetPath(), &tmp_stat) == 0 passed
  == [File] - utilitiestest.cpp
@@ -540,7 +540,7 @@
  == [Line] - 30
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.utilitiestest" name="TempFileTestNoCleanUp" time="0.000">
+    <testcase name="TempFileTestNoCleanUp" time="0.000">
         <system-out><![CDATA[
 [Info] - check stat(tmp_path.c_str(), &tmp_stat) == 0 passed
  == [File] - utilitiestest.cpp
@@ -566,7 +566,7 @@
  == [Line] - 45
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.utilitiestest" name="GetSda1PartitionUUID" time="0.000">
+    <testcase name="GetSda1PartitionUUID" time="0.000">
         <system-out><![CDATA[
 [Info] - check dest_str1 == TestGetSda1PartitionUUID(out_str1) passed
  == [File] - utilitiestest.cpp
@@ -582,7 +582,7 @@
  == [Line] - 106
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationtest" name="CreateDirectoryTest" time="0.000">
+    <testcase name="CreateDirectoryTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check fs::exists("/tmp/hello/world/test/") passed
             
@@ -611,7 +611,7 @@
  == [Line] - 107
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationtest" name="TritonOperationTest" time="0.000">
+    <testcase name="TritonOperationTest" time="0.000">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - tritonoperationtest.cpp
@@ -624,7 +624,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationtest" name="TritonOperationTest2" time="0.000">
+    <testcase name="TritonOperationTest2" time="0.000">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - tritonoperationtest.cpp
@@ -637,7 +637,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationtest" name="TritonOperationTest3" time="0.010">
+    <testcase name="TritonOperationTest3" time="0.010">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - tritonoperationtest.cpp
@@ -650,7 +650,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationqueuetest" name="TritonOperationQueueOrderTest" time="0.000">
+    <testcase name="TritonOperationQueueOrderTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check !queue.Poll() passed
  == [File] - tritonoperationqueuetest.cpp
@@ -697,7 +697,7 @@
  == [Line] - 62
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationqueuetest" name="TritonOperationQueueTestSingleThread" time="0.000">
+    <testcase name="TritonOperationQueueTestSingleThread" time="0.000">
         <system-out><![CDATA[
 [Info] - check queue.Poll() == __null passed
  == [File] - tritonoperationqueuetest.cpp
@@ -724,7 +724,7 @@
  == [Line] - 80
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.tritonoperationqueuetest" name="TritonOperationQueueTestMultipleThreads" time="0.010">
+    <testcase name="TritonOperationQueueTestMultipleThreads" time="0.010">
         <system-out><![CDATA[
 [Info] - check queue.Poll() == __null passed
  == [File] - tritonoperationqueuetest.cpp
@@ -735,7 +735,7 @@
  == [Line] - 105
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadtest" name="ThreadTestJoin" time="0.010">
+    <testcase name="ThreadTestJoin" time="0.010">
         <system-out><![CDATA[
 [Info] - check initialized_ passed
  == [File] - threadtest.cpp
@@ -754,7 +754,7 @@
  == [Line] - 78
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadtest" name="ThreadTestPause" time="0.000">
+    <testcase name="ThreadTestPause" time="0.000">
         <system-out><![CDATA[
 [Info] - check initialized_ passed
  == [File] - threadtest.cpp
@@ -785,7 +785,7 @@
  == [Line] - 92
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadtest" name="ThreadTestRestart" time="0.000">
+    <testcase name="ThreadTestRestart" time="0.000">
         <system-out><![CDATA[
 [Info] - check initialized_ passed
  == [File] - threadtest.cpp
@@ -824,7 +824,7 @@
  == [Line] - 105
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadtest" name="ThreadTestInterrupt" time="0.010">
+    <testcase name="ThreadTestInterrupt" time="0.010">
         <system-out><![CDATA[
 [Info] - check initialized_ passed
  == [File] - threadtest.cpp
@@ -839,7 +839,7 @@
  == [Line] - 113
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test" name="ThreadTestInitFailed" time="0.000">
+    <testcase name="ThreadTestInitFailed" time="0.000">
         <system-out><![CDATA[
 [Message] - Test case ThreadTestInitFailed did not
                 run any assertions
@@ -848,7 +848,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test" name="ThreadTestInterruptionNotIgnored" time="0.000">
+    <testcase name="ThreadTestInterruptionNotIgnored" time="0.000">
         <system-out><![CDATA[
 [Message] - Test case
                 ThreadTestInterruptionNotIgnored did not run any assertions
@@ -857,7 +857,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadtest" name="ThreadTestNotStarted" time="0.000">
+    <testcase name="ThreadTestNotStarted" time="0.000">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[exception crete::ApplicationException is caught]]>&apos;<![CDATA[
                 passed
@@ -872,7 +872,7 @@
  == [Line] - 146
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test" name="ThreadPoolTestNoJob" time="0.000">
+    <testcase name="ThreadPoolTestNoJob" time="0.000">
         <system-out><![CDATA[
 [Message] - Test case ThreadPoolTestNoJob did not run
                 any assertions
@@ -881,7 +881,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadpooltest" name="ThreadPoolTestLargePool" time="0.000">
+    <testcase name="ThreadPoolTestLargePool" time="0.000">
         <system-out><![CDATA[
 [Info] - check job_count == execute_counter.GetCount() passed
  == [File] - threadpooltest.cpp
@@ -892,7 +892,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadpooltest" name="ThreadPoolTestSmallPool" time="0.000">
+    <testcase name="ThreadPoolTestSmallPool" time="0.000">
         <system-out><![CDATA[
 [Info] - check job_count == execute_counter.GetCount() passed
  == [File] - threadpooltest.cpp
@@ -903,7 +903,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadpooltest" name="ThreadPoolTestNormalPool" time="0.000">
+    <testcase name="ThreadPoolTestNormalPool" time="0.000">
         <system-out><![CDATA[
 [Info] - check job_count == execute_counter.GetCount() passed
  == [File] - threadpooltest.cpp
@@ -914,7 +914,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.threadpooltest" name="ThreadPoolTestDiscardPendingJobs" time="0.000">
+    <testcase name="ThreadPoolTestDiscardPendingJobs" time="0.000">
         <system-out><![CDATA[
 [Info] - check execute_counter.GetCount() < JOB_COUNT passed
  == [File] - threadpooltest.cpp
@@ -925,7 +925,7 @@
  == [Line] - 106
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.sysconfigtest" name="SysConfigTest" time="0.000">
+    <testcase name="SysConfigTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check sysconf->Get("nonexist") == "" passed
             
@@ -989,7 +989,7 @@
  == [Line] - 26
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.sqlitewrappertest" name="SQLiteWrapperTest" time="0.000">
+    <testcase name="SQLiteWrapperTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check conn.ExecuteUpdate( "insert into testwrapper("
                 "col1, col2, col3) values(1.21, ]]>&apos;<![CDATA[abc]]>&apos;<![CDATA[, ]]>&apos;<![CDATA[abc]]>&apos;<![CDATA[)" ) == 1 passed
@@ -1064,7 +1064,7 @@
  == [Line] - 50
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test" name="SnapshotThreadTest" time="0.010">
+    <testcase name="SnapshotThreadTest" time="0.010">
         <system-out><![CDATA[
 [Message] - Test case SnapshotThreadTest did not run
                 any assertions
@@ -1073,7 +1073,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshotthreadtest" name="SnapshotThreadTestInaccessibleDirectory" time="0.010">
+    <testcase name="SnapshotThreadTestInaccessibleDirectory" time="0.010">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[exception crete::IllegalOperationException is
                 caught]]>&apos;<![CDATA[ passed
@@ -1082,7 +1082,7 @@
  == [Line] - 39
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshottest" name="SnapshotTestZeroSize" time="0.000">
+    <testcase name="SnapshotTestZeroSize" time="0.000">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - snapshottest.cpp
@@ -1137,7 +1137,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshottest" name="SnapshotTestSmallSize" time="0.000">
+    <testcase name="SnapshotTestSmallSize" time="0.000">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - snapshottest.cpp
@@ -1192,7 +1192,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshottest" name="SnapshotTestMediumSize" time="0.070">
+    <testcase name="SnapshotTestMediumSize" time="0.070">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - snapshottest.cpp
@@ -1247,7 +1247,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshottest" name="SnapshotTestLargeSize" time="0.960">
+    <testcase name="SnapshotTestLargeSize" time="0.960">
         <failure><![CDATA[
 [Error] - check crete::FileStates::GetInstance()->GetPatchTimeAndHash(
                 snapshot->GetManifestFilename(), hash, patchtime) failed
@@ -1321,7 +1321,7 @@
  == [Line] - 72
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.snapshottest" name="SnapshotPatchTest" time="0.000">
+    <testcase name="SnapshotPatchTest" time="0.000">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - snapshottest.cpp
@@ -1334,14 +1334,14 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.scanthreadtest" name="ScanThreadTestScan" time="0.090">
+    <testcase name="ScanThreadTestScan" time="0.090">
         <system-out><![CDATA[
 [Info] - check task_queue.GetBackupTaskCount() > 0 passed
  == [File] - scanthreadtest.cpp
  == [Line] - 49
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.restorestoretest" name="RestoreStoreTest" time="0.010">
+    <testcase name="RestoreStoreTest" time="0.010">
         <system-out><![CDATA[
 [Info] - check handle > 0 passed
  == [File] - restorestoretest.cpp
@@ -1579,7 +1579,7 @@
  == [Line] - 96
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.rdifftest" name="RdiffTest" time="0.020">
+    <testcase name="RdiffTest" time="0.020">
         <system-out><![CDATA[
 [Info] - check !RDIFF::WantRdiffStream("test.doc", 1024ll * 100, &blocksize)
                 passed
@@ -1716,7 +1716,7 @@
  == [Line] - 106
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.rdiffstreamtest" name="RdiffStreamZeroTest" time="0.000">
+    <testcase name="RdiffStreamZeroTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - rdiffstreamtest.cpp
@@ -1728,24 +1728,7 @@
  == [Line] - 66
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.rdiffstreamtest" name="RdiffStreamSmallTest" time="0.000">
-        <system-out><![CDATA[
-[Info] - check !fs.bad() passed
- == [File] - rdiffstreamtest.cpp
- == [Line] - 41
-
-[Info] - check rdiffhash->size() == originHashes->size() passed
-            
- == [File] - rdiffstreamtest.cpp
- == [Line] - 66
-
-[Info] - check rdiffhash->buffer() == originHashes->buffer() passed
-            
- == [File] - rdiffstreamtest.cpp
- == [Line] - 68
-]]></system-out>
-    </testcase>
-    <testcase classname="Crete.Unit.Test.rdiffstreamtest" name="RdiffStreamMediumTest" time="0.000">
+    <testcase name="RdiffStreamSmallTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - rdiffstreamtest.cpp
@@ -1762,7 +1745,7 @@
  == [Line] - 68
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.rdiffstreamtest" name="RdiffStreamLargeTest" time="0.010">
+    <testcase name="RdiffStreamMediumTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check !fs.bad() passed
  == [File] - rdiffstreamtest.cpp
@@ -1779,7 +1762,24 @@
  == [Line] - 68
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.mordorthreadtest" name="EventConversionTest" time="0.000">
+    <testcase name="RdiffStreamLargeTest" time="0.010">
+        <system-out><![CDATA[
+[Info] - check !fs.bad() passed
+ == [File] - rdiffstreamtest.cpp
+ == [Line] - 41
+
+[Info] - check rdiffhash->size() == originHashes->size() passed
+            
+ == [File] - rdiffstreamtest.cpp
+ == [Line] - 66
+
+[Info] - check rdiffhash->buffer() == originHashes->buffer() passed
+            
+ == [File] - rdiffstreamtest.cpp
+ == [Line] - 68
+]]></system-out>
+    </testcase>
+    <testcase name="EventConversionTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check event_list[i] == VFS::Linux::watcherEvent2InotifyEvent(
                 VFS::Linux::inotifyEvent2WatcherEvent(event_list[i]) ) passed
@@ -1842,7 +1842,7 @@
  == [Line] - 68
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.mordorthreadtest" name="MordorThreadTest" time="0.000">
+    <testcase name="MordorThreadTest" time="0.000">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - mordorthreadtest.cpp
@@ -1855,7 +1855,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifesttest" name="ManifestTest" time="0.000">
+    <testcase name="ManifestTest" time="0.000">
         <system-out><![CDATA[
 [Warning] - triton.host not defined
  == [File] - manifesttest.cpp
@@ -1868,7 +1868,7 @@
  == [Line] - 220
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifeststoretest" name="ManifestStoreTest" time="0.020">
+    <testcase name="ManifestStoreTest" time="0.020">
         <system-out><![CDATA[
 [Info] - check stream passed
  == [File] - manifeststoretest.cpp
@@ -2033,7 +2033,7 @@
  == [Line] - 109
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestPatchInfo" time="0.000">
+    <testcase name="ManifestParserTestPatchInfo" time="0.000">
         <system-out><![CDATA[
 [Info] - check info passed
  == [File] - manifestparsertest.cpp
@@ -2074,7 +2074,7 @@
  == [Line] - 51
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestPatchInfo2" time="0.000">
+    <testcase name="ManifestParserTestPatchInfo2" time="0.000">
         <system-out><![CDATA[
 [Info] - check info passed
  == [File] - manifestparsertest.cpp
@@ -2115,7 +2115,7 @@
  == [Line] - 66
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestBadPatchInfo" time="0.000">
+    <testcase name="ManifestParserTestBadPatchInfo" time="0.000">
         <system-out><![CDATA[
 [Info] - check !info passed
  == [File] - manifestparsertest.cpp
@@ -2130,7 +2130,7 @@
  == [Line] - 82
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestSmall" time="0.000">
+    <testcase name="ManifestParserTestSmall" time="0.000">
         <system-out><![CDATA[
 [Info] - check stream passed
  == [File] - manifestparsertest.cpp
@@ -2196,7 +2196,7 @@
  == [Line] - 106
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestUnicode" time="0.000">
+    <testcase name="ManifestParserTestUnicode" time="0.000">
         <system-out><![CDATA[
 [Info] - check stream passed
  == [File] - manifestparsertest.cpp
@@ -2247,7 +2247,7 @@
  == [Line] - 124
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestLarge" time="0.020">
+    <testcase name="ManifestParserTestLarge" time="0.020">
         <system-out><![CDATA[
 [Info] - check stream passed
  == [File] - manifestparsertest.cpp
@@ -2266,7 +2266,7 @@
  == [Line] - 130
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestEmpty" time="0.000">
+    <testcase name="ManifestParserTestEmpty" time="0.000">
         <system-out><![CDATA[
 [Info] - check strlen(str) == stream->write(str, strlen(str)) passed
             
@@ -2310,7 +2310,7 @@
  == [Line] - 142
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.manifestparsertest" name="ManifestParserTestUnexpected" time="0.000">
+    <testcase name="ManifestParserTestUnexpected" time="0.000">
         <system-out><![CDATA[
 [Info] - check strlen(str) == stream->write(str, strlen(str)) passed
             
@@ -2541,7 +2541,7 @@
  == [Line] - 168
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.librarytest" name="LibraryTestMozyFS" time="0.030">
+    <testcase name="LibraryTestMozyFS" time="0.030">
         <system-out><![CDATA[
 [Info] - check root passed
  == [File] - librarytest.cpp
@@ -3058,7 +3058,7 @@
  == [Line] - 95
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.librarytest" name="LibraryTestDaemon" time="0.010">
+    <testcase name="LibraryTestDaemon" time="0.010">
         <system-out><![CDATA[
 [Info] - check CheckNumJobTask(3, 3) == true passed
  == [File] - librarytest.cpp
@@ -3117,7 +3117,7 @@
  == [Line] - 139
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.filestatestest" name="FileStatesTest" time="0.000">
+    <testcase name="FileStatesTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check file_state passed
  == [File] - filestatestest.cpp
@@ -3350,7 +3350,7 @@
  == [Line] - 90
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.exceptiontest" name="ExceptionTestCatchByCreteException" time="0.000">
+    <testcase name="ExceptionTestCatchByCreteException" time="0.000">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[exceptiontest.cpp(11): Throw in function void<unnamed>::DummyFunction()
                 Dynamic exception type: N5boost16exception_detail10clone_implIN5crete20ApplicationExceptionEEE
@@ -3431,7 +3431,7 @@
  == [Line] - 23
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.exceptiontest" name="ExceptionTestCatchByStdException" time="0.010">
+    <testcase name="ExceptionTestCatchByStdException" time="0.010">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[exceptiontest.cpp(11): Throw in function void<unnamed>::DummyFunction()
                 Dynamic exception type: N5boost16exception_detail10clone_implIN5crete20ApplicationExceptionEEE
@@ -3512,7 +3512,7 @@
  == [Line] - 38
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.configuretest" name="ConfigurationLoadTest" time="0.000">
+    <testcase name="ConfigurationLoadTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check conf->schedule_sets_.size() == 3 passed
  == [File] - configuretest.cpp
@@ -3731,7 +3731,7 @@
  == [Line] - 98
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.busclienttest" name="CheckLicense_0" time="0.010">
+    <testcase name="CheckLicense_0" time="0.010">
         <error><![CDATA[
 [Exception] - child has exited; pid: 8389; uid: 101; exit value: 2
                 
@@ -3747,7 +3747,7 @@
  == [Line] - 56
 ]]></system-err>
     </testcase>
-    <testcase classname="Crete.Unit.Test.busclienttest" name="CheckLicense_1" time="0.000">
+    <testcase name="CheckLicense_1" time="0.000">
         <error><![CDATA[
 [Exception] - signal: SIGABRT (application abort requested)
                 
@@ -3763,7 +3763,7 @@
  == [Line] - 56
 ]]></system-err>
     </testcase>
-    <testcase classname="Crete.Unit.Test.blacklisttest" name="BlackListTest" time="0.000">
+    <testcase name="BlackListTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check bl.IsInBlackList("/tmp/crete_snapshot") == false
                 passed
@@ -3848,7 +3848,7 @@
  == [Line] - 36
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.backuptaskstoretest" name="BackupTaskStoreTest" time="0.020">
+    <testcase name="BackupTaskStoreTest" time="0.020">
         <system-out><![CDATA[
 [Info] - check bts.CountBackupTask() == 0 passed
  == [File] - backuptaskstoretest.cpp
@@ -3956,7 +3956,7 @@
  == [Line] - 69
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.backuptaskqueuetest" name="BackupTaskQueueTestNormal" time="0.030">
+    <testcase name="BackupTaskQueueTestNormal" time="0.030">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[/tmp/file1.mp3]]>&apos;<![CDATA[ passed
  == [File] - backuptaskqueuetest.cpp
@@ -3975,7 +3975,7 @@
  == [Line] - 57
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.backuptaskqueuetest" name="BackupTaskQueueTestCoalescing" time="0.020">
+    <testcase name="BackupTaskQueueTestCoalescing" time="0.020">
         <system-out><![CDATA[
 [Info] - check ]]>&apos;<![CDATA[/tmp/file1.mp3]]>&apos;<![CDATA[ passed
  == [File] - backuptaskqueuetest.cpp
@@ -3994,7 +3994,7 @@
  == [Line] - 96
 ]]></system-out>
     </testcase>
-    <testcase classname="Crete.Unit.Test.backuptaskcheckruletest" name="BackupTaskCheckRuleTest" time="0.000">
+    <testcase name="BackupTaskCheckRuleTest" time="0.000">
         <system-out><![CDATA[
 [Info] - check conf->Match(obj0) == true passed
  == [File] - backuptaskcheckruletest.cpp

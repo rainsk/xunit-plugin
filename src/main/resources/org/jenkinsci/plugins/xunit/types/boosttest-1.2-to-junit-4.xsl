@@ -114,15 +114,15 @@ THE SOFTWARE.
 
         <xsl:element name="testsuite">
             <xsl:attribute name="tests">
-                <xsl:value-of select="count(.//TestCase)"/>
+                <xsl:value-of select="count(./TestCase)"/>
             </xsl:attribute>
 
             <xsl:attribute name="errors">
-                <xsl:value-of select="count(.//TestCase/FatalError)+count(.//TestCase/Exception)"/>
+                <xsl:value-of select="count(./TestCase/FatalError)+count(./TestCase/Exception)"/>
             </xsl:attribute>
 
             <xsl:attribute name="failures">
-                <xsl:value-of select="count(.//TestCase/Error)"/>
+                <xsl:value-of select="count(./TestCase/Error)"/>
             </xsl:attribute>
 
             <xsl:attribute name="name">
@@ -133,7 +133,7 @@ THE SOFTWARE.
                 <xsl:value-of select="0"/>
             </xsl:attribute>
 
-            <xsl:for-each select=".//TestCase">
+            <xsl:for-each select="./TestCase">
                 <xsl:call-template name="testCase"/>
             </xsl:for-each>
         </xsl:element>

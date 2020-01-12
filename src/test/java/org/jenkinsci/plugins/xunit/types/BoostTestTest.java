@@ -39,11 +39,11 @@ public class BoostTestTest extends AbstractTest {
                                               { "testcase2", 2 }, //
                                               { "testcase3", 3 }, //
                                               { "testcase6", 6 }, //
-//                                              { "testcase7", 7 }, //
-//                                              { "testcase8", 8 }, //
-//                                              { "testcase9", 9 }, //
-//                                              { "testcase10", 10 }, //
-//                                              { "testcase11", 11 }, //
+                                              { "testcase7", 7 }, //
+                                              { "testcase8", 8 }, //
+                                              { "testcase9", 9 }, //
+                                              { "testcase10", 10 }, //
+                                              { "testcase11", 11 }, //
 //                                              { "testcase12", 12 }, //
 //                                              { "testcase13", 13 }, //
 //                                              { "testcase14", 14 }, //

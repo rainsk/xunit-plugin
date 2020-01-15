@@ -309,8 +309,12 @@ public class XUnitProcessor {
             if (!customXSLFilePath.exists()) {
                 // Try from workspace
                 customXSLFilePath = workspace.child(customXSLPath);
-                if (!customXSLFilePath.exists()) {
+                if (!customXSLFilePath.exists() && tool.isStopProcessingIfError()) {
                     throw new FileNotFoundException(Messages.xUnitProcessor_xslFileNotFound(customXSLPath));
+                }
+                else if (!customXSLFilePath.exists() && !tool.isStopProcessingIfError())
+                {
+                    return null;
                 }
             }
         }
